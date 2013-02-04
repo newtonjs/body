@@ -9,8 +9,9 @@ Rigid body.
 ### Proposed usage ###
 
 ```js
-var Body  = require('newtonjs-body').Body;
-var Plane = require('newtonjs-body').Plane;
+var Body   = require('newtonjs-body').Body;
+var Plane  = require('newtonjs-body').Plane;
+var Vector = require('newtonjs-body').Vector;
 
 var marble = new Body(new Vector([x, y]), [mass]);
 var table  = new Plane(new Vector([x, y]));
